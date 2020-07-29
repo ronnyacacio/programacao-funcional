@@ -1,0 +1,1 @@
+somaQ n = sum (map (\x -> x^2) [1..n])

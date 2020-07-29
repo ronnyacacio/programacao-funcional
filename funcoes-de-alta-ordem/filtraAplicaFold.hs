@@ -1,0 +1,1 @@
+filtraAplicaFold f p xs = foldr (\x acc -> if (p x) then (f x):acc else acc) [] xs

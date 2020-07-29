@@ -1,0 +1,1 @@
+concatenaFold xs = foldr (\x acc -> x++acc) [] xs

@@ -1,0 +1,1 @@
+removeLista xs ys = foldr (\x acc -> if elem x xs then acc else x:acc) [] ys

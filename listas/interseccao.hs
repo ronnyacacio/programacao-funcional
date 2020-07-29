@@ -1,0 +1,1 @@
+interseccao xs ys = filter(\x -> x `elem` ys) xs
